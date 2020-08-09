@@ -55,7 +55,7 @@ h1 {
 }
 h2 {
   font-family: Open Sans;
-  color: #0A3BC1;
+  color: #004C99;
   font-size: 3em;
 }
 p {
@@ -64,16 +64,16 @@ p {
   line-height: 2;
 }
 .underline-1 {
-  border-bottom: 10px solid #a66;
-  width: 54%;
+  border-bottom: 12px solid #a66;
+  width: 60%;
 }
 .underline-2 {
-  border-bottom: 10px solid #a66;
-  width: 63%;
+  border-bottom: 12px solid #a66;
+  width: 70.5%;
 }
 .underline-3 {
-  border-bottom: 10px solid #a66;
-  width: 63%;
+  border-bottom: 12px solid #a66;
+  width: 70%;
 }
 .covid {
 font-family: Roboto;
@@ -155,18 +155,21 @@ list-style-type: none;
 nav li a {
   display: inline-block;
   width: 100%;
-  line-height: 4;
+  line-height: 4.5;
   text-align: center;
   font-family: Roboto;
   font-weight: 500;
   font-size: 1.5rem;
-  border: 1px solid #a66;
+  background: #CCE5FF;
+  border-radius: 5px;
 }
 nav li a:focus, nav li a:hover {
   color: white;
-  background: #0A3BC1;
+  background: #a66;
 }
 nav li a:active {
   color: white;
   background: black;
 }
+
+/* Add flexbox CSS here*/

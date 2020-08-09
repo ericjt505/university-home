@@ -16,14 +16,15 @@ section {
   width: 50%;
 }
 main {
-
+  display: flex;
+  justify-content: space-between;
 }
 aside {
   float: left;
   width: 30%;
 }
 nav {
-  float: left;
+  float: right;
   width: 20%;
 }
 footer {
@@ -39,52 +40,84 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE*/
 
-
 html {
-  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 h1, h2 {
-  font-family: JosefinSans;
-  line-spacing: 2px;
+  font-family: Roboto;
+  font-weight: 500;
 }
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
 }
 h2 {
-  font-size: 3.2em;
+  font-family: Open Sans;
+  color: #0A3BC1;
+  font-size: 3em;
+}
+p {
+  font-family: Open Sans;
+  font-weight: 300;
+  line-height: 2;
+}
+.underline-1 {
+  border-bottom: 10px solid #a66;
+  width: 54%;
+}
+.underline-2 {
+  border-bottom: 10px solid #a66;
+  width: 63%;
+}
+.underline-3 {
+  border-bottom: 10px solid #a66;
+  width: 63%;
 }
 .covid {
-font-family: Lovato;
+font-family: Roboto;
 font-weight: bold;
 font-size: 18px;
 margin: 10px;
 }
+.info {
+font-family: Roboto;
+font-size: 15px;
+margin: 10px;
+}
 .who {
-font-family: Lovato;
-font-size: 16px;
+font-family: Roboto;
+font-weight: 500;
+font-size: 15px;
 margin: 10px;
 }
 .additional {
-  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
   text-align: center;
 }
 .footer {
+  font-family: Roboto;
+  font-weight: 500;
   font-size: 14px;
   text-align: center;
 }
-section, p {
-  font-family: Lovato;
-  text-indent: 20px;
+.bottom {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 10px;
 }
-p, ul, ol, li {
-  font-size: 1.6rem;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-  word-spacing: 3px;
+.seemore {
+  font-family: Open Sans;
+  font-weight: 300;
+  margin: 25px;
 }
 a {
-  font-family: Lovato;
+  font-family: Roboto;
+  font-weight: 500;
   outline: none;
 }
 a:link, a:visited {
@@ -104,31 +137,34 @@ ul, ol {
   margin: 1.6rem 0;
 }
 ul {
+  line-height: 2;
   list-style-type: square;
 }
 ol {
+  line-height: 2;
   list-style-type: lower-latin;
 }
 nav ul {
-  font-family: 'Lovato';
   padding-left: 0;
   margin-top: 0.8rem;
 }
 nav li {
-  list-style-type: none;
+list-style-type: none;
   margin-bottom: 2rem;
 }
 nav li a {
   display: inline-block;
   width: 100%;
-  line-height: 3;
+  line-height: 4;
   text-align: center;
-  font-size: 2.5rem;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.5rem;
   border: 1px solid #a66;
 }
 nav li a:focus, nav li a:hover {
   color: white;
-  background: #a66;
+  background: #0A3BC1;
 }
 nav li a:active {
   color: white;

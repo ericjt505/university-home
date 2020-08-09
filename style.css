@@ -38,25 +38,21 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
-@font-face {
-  font-family: "lovatolight";
-  src: url(), url(), url(), url(), url(), url();
-  font-weight: normal;
-  font-style: normal;
-}
 html {
-  font-family: sans-serif;
-  font-size: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Slab', serif;
+  font-size: 12px;
 }
 h1, h2 {
-  font-family: sans-sans-serif;
   letter-spacing: 2px;
 }
 h1 {
+  font-family: 'Josefin Slab';
   font-size: 5rem;
   text-align: center;
 }
 h2 {
+  font-family: 'Josefin Slab';
   font-size: 3.2em;
 }
 section h2, p {
@@ -97,7 +93,7 @@ ul {
   list-style-type: square;
 }
 ol {
-  list-style-type: lower-lower-latin;
+  list-style-type: lower-latin;
 }
 nav ul {
   padding-left: 0;

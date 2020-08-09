@@ -32,25 +32,103 @@ footer {
 header, section, aside, nav, footer {
   padding: 20px;
 }
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
 
 /* WRITE YOUR CODE BELOW HERE*/
 
+@font-face {
+  font-family: 'Lovato';
+  src: url('fonts/Lovato W00 Light.ttf');
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('fonts/JosefinSlab-Bold.ttf');
+  font-style: normal;
+  font-weight: ;
+}
+
 html {
-  font-family:'';
   font-size: 12px;
 }
 h1, h2 {
+  font-family: JosefinSans;
   line-spacing: 2px;
 }
 h1 {
-  font-family: '';
   font-size: 5rem;
   text-align: center;
 }
 h2 {
-  font-family: '';
   font-size: 3.2em;
 }
-section {
+section, p {
+  font-family: Lovato;
   text-indent: 20px;
+}
+p, ul, ol, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  word-spacing: 3px;
+}
+a {
+  font-family: Lovato;
+  outline: none;
+}
+a:link, a:visited {
+  color: #a66;
+}
+a:focus, a:hover {
+  text-decoration: none;
+}
+a:active {
+  color: transparent;
+  text-shadow: 0 0 1px #f00,
+               0 0 2px #f100,
+               0 0 3px black,
+               0 0 4px black;
+}
+img {
+  width: 20px;
+  height: 20px;
+}
+ul, ol {
+  margin: 1.6rem 0;
+}
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: lower-latin;
+}
+nav ul {
+  font-family: 'Lovato';
+  padding-left: 0;
+  margin-top: 0.8rem;
+}
+nav li {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  font-size: 2.5rem;
+  border: 1px solid #a66;
+}
+nav li a:focus, nav li a:hover {
+  color: white;
+  background: #a66;
+}
+nav li a:active {
+  color: white;
+  background: black;
 }
